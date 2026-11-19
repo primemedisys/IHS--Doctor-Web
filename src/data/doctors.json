@@ -1,0 +1,156 @@
+[
+  {
+    "id": "d-1", "slug": "aarav-mishra", "name": "Dr. Aarav Mishra", "gender": "male",
+    "specialtySlug": "cardiology", "specialtyName": "Cardiology",
+    "qualifications": ["MBBS", "MD", "DM (Cardiology)"], "experienceYears": 16,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "Apollo Hospitals Bhubaneswar",
+    "citySlug": "bhubaneswar", "city": "Bhubaneswar", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.8, "reviewsCount": 312, "consultationFee": 900, "verified": true, "available": true,
+    "about": "Interventional cardiologist focused on preventive heart care and complex angioplasty for patients across Odisha.",
+    "education": [{ "degree": "MD, Medicine", "institution": "SCB Medical College, Cuttack", "year": 2010 }, { "degree": "DM, Cardiology", "institution": "AIIMS Bhubaneswar", "year": 2014 }],
+    "symptoms": ["chest-pain", "palpitations"]
+  },
+  {
+    "id": "d-2", "slug": "priyanka-sahu", "name": "Dr. Priyanka Sahu", "gender": "female",
+    "specialtySlug": "neurology", "specialtyName": "Neurology",
+    "qualifications": ["MBBS", "MD", "DM (Neurology)"], "experienceYears": 13,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "SCB Medical College & Hospital",
+    "citySlug": "cuttack", "city": "Cuttack", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.9, "reviewsCount": 274, "consultationFee": 800, "verified": true, "available": true,
+    "about": "Neurologist treating epilepsy, migraine and movement disorders with a patient-first approach.",
+    "education": [{ "degree": "DM, Neurology", "institution": "NIMHANS Bengaluru", "year": 2013 }],
+    "symptoms": ["headache", "dizziness"]
+  },
+  {
+    "id": "d-3", "slug": "sworup-panda", "name": "Dr. Sworup Panda", "gender": "male",
+    "specialtySlug": "dermatology", "specialtyName": "Dermatology",
+    "qualifications": ["MBBS", "MD (Dermatology)"], "experienceYears": 10,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "Care Skin Clinic",
+    "citySlug": "bhubaneswar", "city": "Bhubaneswar", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.6, "reviewsCount": 198, "consultationFee": 600, "verified": true, "available": true,
+    "about": "Clinical and cosmetic dermatologist specialising in acne, pigmentation and laser therapy.",
+    "education": [{ "degree": "MD, Dermatology", "institution": "AIIMS Bhubaneswar", "year": 2016 }],
+    "symptoms": ["skin-rash", "acne"]
+  },
+  {
+    "id": "d-4", "slug": "ananya-das", "name": "Dr. Ananya Das", "gender": "female",
+    "specialtySlug": "pediatrics", "specialtyName": "Pediatrics",
+    "qualifications": ["MBBS", "MD (Pediatrics)"], "experienceYears": 9,
+    "languages": ["Odia", "Bengali", "English"], "hospital": "Kalinga Institute of Medical Sciences",
+    "citySlug": "puri", "city": "Puri", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.7, "reviewsCount": 176, "consultationFee": 500, "verified": true, "available": true,
+    "about": "Paediatrician passionate about newborn care, vaccinations and childhood nutrition.",
+    "education": [{ "degree": "MD, Pediatrics", "institution": "SCB Medical College, Cuttack", "year": 2017 }],
+    "symptoms": ["child-fever"]
+  },
+  {
+    "id": "d-5", "slug": "rakesh-behera", "name": "Dr. Rakesh Behera", "gender": "male",
+    "specialtySlug": "orthopedics", "specialtyName": "Orthopedics",
+    "qualifications": ["MBBS", "MS (Orthopedics)"], "experienceYears": 18,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "Ispat General Hospital",
+    "citySlug": "rourkela", "city": "Rourkela", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.5, "reviewsCount": 221, "consultationFee": 700, "verified": true, "available": false,
+    "about": "Orthopaedic surgeon specialising in joint replacement and sports injuries.",
+    "education": [{ "degree": "MS, Orthopedics", "institution": "VSS Institute of Medical Sciences", "year": 2008 }],
+    "symptoms": ["back-pain"]
+  },
+  {
+    "id": "d-6", "slug": "meera-pattnaik", "name": "Dr. Meera Pattnaik", "gender": "female",
+    "specialtySlug": "gynecology", "specialtyName": "Gynecology",
+    "qualifications": ["MBBS", "MD", "DGO"], "experienceYears": 14,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "Hi-Tech Medical College",
+    "citySlug": "sambalpur", "city": "Sambalpur", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.8, "reviewsCount": 256, "consultationFee": 650, "verified": true, "available": true,
+    "about": "Obstetrician-gynaecologist focused on high-risk pregnancy and women's wellness.",
+    "education": [{ "degree": "MD, Obstetrics & Gynaecology", "institution": "MKCG Medical College", "year": 2012 }],
+    "symptoms": []
+  },
+  {
+    "id": "d-7", "slug": "sanjay-rout", "name": "Dr. Sanjay Rout", "gender": "male",
+    "specialtySlug": "ent", "specialtyName": "ENT",
+    "qualifications": ["MBBS", "MS (ENT)"], "experienceYears": 12,
+    "languages": ["Odia", "Telugu", "English"], "hospital": "MKCG Medical College & Hospital",
+    "citySlug": "berhampur", "city": "Berhampur", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.4, "reviewsCount": 143, "consultationFee": 550, "verified": true, "available": true,
+    "about": "ENT surgeon treating sinus, hearing and voice disorders across all ages.",
+    "education": [{ "degree": "MS, ENT", "institution": "MKCG Medical College", "year": 2014 }],
+    "symptoms": ["ear-pain"]
+  },
+  {
+    "id": "d-8", "slug": "ritu-agarwal", "name": "Dr. Ritu Agarwal", "gender": "female",
+    "specialtySlug": "dentistry", "specialtyName": "Dentistry",
+    "qualifications": ["BDS", "MDS (Endodontics)"], "experienceYears": 8,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "SmileCare Dental Studio",
+    "citySlug": "balasore", "city": "Balasore", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.5, "reviewsCount": 132, "consultationFee": 450, "verified": false, "available": true,
+    "about": "Endodontist offering painless root canal treatment and smile design.",
+    "education": [{ "degree": "MDS, Endodontics", "institution": "SCB Dental College, Cuttack", "year": 2018 }],
+    "symptoms": ["toothache"]
+  },
+  {
+    "id": "d-9", "slug": "debasish-nayak", "name": "Dr. Debasish Nayak", "gender": "male",
+    "specialtySlug": "psychiatry", "specialtyName": "Psychiatry",
+    "qualifications": ["MBBS", "MD (Psychiatry)"], "experienceYears": 11,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "Mind Plus Wellness Centre",
+    "citySlug": "bhubaneswar", "city": "Bhubaneswar", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.7, "reviewsCount": 167, "consultationFee": 800, "verified": true, "available": true,
+    "about": "Psychiatrist supporting anxiety, depression and sleep disorders with holistic care.",
+    "education": [{ "degree": "MD, Psychiatry", "institution": "AIIMS Bhubaneswar", "year": 2015 }],
+    "symptoms": ["anxiety"]
+  },
+  {
+    "id": "d-10", "slug": "lopamudra-swain", "name": "Dr. Lopamudra Swain", "gender": "female",
+    "specialtySlug": "ophthalmology", "specialtyName": "Ophthalmology",
+    "qualifications": ["MBBS", "MS (Ophthalmology)"], "experienceYears": 12,
+    "languages": ["Odia", "Hindi", "English"], "hospital": "L V Prasad Eye Institute",
+    "citySlug": "angul", "city": "Angul", "stateCode": "OD", "stateName": "Odisha",
+    "rating": 4.6, "reviewsCount": 158, "consultationFee": 600, "verified": true, "available": false,
+    "about": "Ophthalmic surgeon experienced in cataract, LASIK and retina care.",
+    "education": [{ "degree": "MS, Ophthalmology", "institution": "AIIMS Bhubaneswar", "year": 2014 }],
+    "symptoms": ["blurred-vision"]
+  },
+  {
+    "id": "d-11", "slug": "neha-gupta", "name": "Dr. Neha Gupta", "gender": "female",
+    "specialtySlug": "cardiology", "specialtyName": "Cardiology",
+    "qualifications": ["MBBS", "MD", "DNB (Cardiology)"], "experienceYears": 12,
+    "languages": ["Hindi", "English"], "hospital": "Max Super Speciality",
+    "citySlug": "new-delhi", "city": "New Delhi", "stateCode": "DL", "stateName": "Delhi",
+    "rating": 4.7, "reviewsCount": 241, "consultationFee": 1300, "verified": true, "available": true,
+    "about": "Non-invasive cardiologist with a special interest in women's heart health.",
+    "education": [{ "degree": "DNB, Cardiology", "institution": "GB Pant Hospital", "year": 2015 }],
+    "symptoms": ["chest-pain", "palpitations"]
+  },
+  {
+    "id": "d-12", "slug": "isha-sharma", "name": "Dr. Isha Sharma", "gender": "female",
+    "specialtySlug": "dermatology", "specialtyName": "Dermatology",
+    "qualifications": ["MBBS", "MD (Dermatology)"], "experienceYears": 11,
+    "languages": ["Bengali", "Hindi", "English"], "hospital": "AMRI Skin & Glow Clinic",
+    "citySlug": "kolkata", "city": "Kolkata", "stateCode": "WB", "stateName": "West Bengal",
+    "rating": 4.7, "reviewsCount": 268, "consultationFee": 800, "verified": true, "available": true,
+    "about": "Clinical and cosmetic dermatologist specialising in acne, pigmentation and laser therapy.",
+    "education": [{ "degree": "MD, Dermatology", "institution": "Calcutta Medical College", "year": 2015 }],
+    "symptoms": ["skin-rash", "acne"]
+  },
+  {
+    "id": "d-13", "slug": "rohan-nair", "name": "Dr. Rohan Nair", "gender": "male",
+    "specialtySlug": "neurology", "specialtyName": "Neurology",
+    "qualifications": ["MBBS", "MD", "DM (Neurology)"], "experienceYears": 14,
+    "languages": ["Kannada", "Hindi", "English"], "hospital": "Manipal Neuro Centre",
+    "citySlug": "bengaluru", "city": "Bengaluru", "stateCode": "KA", "stateName": "Karnataka",
+    "rating": 4.9, "reviewsCount": 401, "consultationFee": 1500, "verified": true, "available": true,
+    "about": "Neurologist treating epilepsy, migraine and movement disorders with a patient-first approach.",
+    "education": [{ "degree": "DM, Neurology", "institution": "NIMHANS Bengaluru", "year": 2013 }],
+    "symptoms": ["headache", "dizziness"]
+  },
+  {
+    "id": "d-14", "slug": "vikram-desai", "name": "Dr. Vikram Desai", "gender": "male",
+    "specialtySlug": "orthopedics", "specialtyName": "Orthopedics",
+    "qualifications": ["MBBS", "MS (Orthopedics)"], "experienceYears": 17,
+    "languages": ["Marathi", "Hindi", "English"], "hospital": "Ruby Hall Clinic",
+    "citySlug": "pune", "city": "Pune", "stateCode": "MH", "stateName": "Maharashtra",
+    "rating": 4.6, "reviewsCount": 224, "consultationFee": 1000, "verified": true, "available": true,
+    "about": "Orthopaedic surgeon specialising in joint replacement and sports injuries.",
+    "education": [{ "degree": "MS, Orthopedics", "institution": "B J Medical College, Pune", "year": 2009 }],
+    "symptoms": ["back-pain"]
+  }
+]

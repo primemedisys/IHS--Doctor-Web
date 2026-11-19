@@ -1,0 +1,10 @@
+export { HeroSection } from "./HeroSection";
+export { PopularSpecialties } from "./PopularSpecialties";
+export { HealthcareMapSection } from "./HealthcareMapSection";
+export { PopularSymptoms } from "./PopularSymptoms";
+export { TopSpecialists } from "./TopSpecialists";
+export { HowItWorks } from "./HowItWorks";
+export { Statistics } from "./Statistics";
+export { AboutSection } from "./AboutSection";
+export { ContactCTA } from "./ContactCTA";
+export { Section } from "./Section";

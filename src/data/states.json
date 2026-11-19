@@ -1,0 +1,9 @@
+[
+  { "code": "OD", "name": "Odisha", "doctorsCount": 2400, "hospitalsCount": 260, "specialistsCount": 1300 },
+  { "code": "WB", "name": "West Bengal", "doctorsCount": 1900, "hospitalsCount": 240, "specialistsCount": 990 },
+  { "code": "DL", "name": "Delhi", "doctorsCount": 2600, "hospitalsCount": 310, "specialistsCount": 1500 },
+  { "code": "MH", "name": "Maharashtra", "doctorsCount": 3200, "hospitalsCount": 420, "specialistsCount": 1800 },
+  { "code": "KA", "name": "Karnataka", "doctorsCount": 2400, "hospitalsCount": 290, "specialistsCount": 1350 },
+  { "code": "TN", "name": "Tamil Nadu", "doctorsCount": 2300, "hospitalsCount": 300, "specialistsCount": 1280 },
+  { "code": "TG", "name": "Telangana", "doctorsCount": 1500, "hospitalsCount": 190, "specialistsCount": 840 }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": "sp-1", "slug": "cardiology", "name": "Cardiology", "icon": "FiHeart", "description": "Heart and cardiovascular care", "doctorsCount": 128 },
+  { "id": "sp-2", "slug": "dermatology", "name": "Dermatology", "icon": "FiSun", "description": "Skin, hair and nail health", "doctorsCount": 96 },
+  { "id": "sp-3", "slug": "neurology", "name": "Neurology", "icon": "FiActivity", "description": "Brain and nervous system", "doctorsCount": 74 },
+  { "id": "sp-4", "slug": "pediatrics", "name": "Pediatrics", "icon": "FiSmile", "description": "Child and infant health", "doctorsCount": 152 },
+  { "id": "sp-5", "slug": "orthopedics", "name": "Orthopedics", "icon": "FiTrendingUp", "description": "Bones, joints and muscles", "doctorsCount": 110 },
+  { "id": "sp-6", "slug": "gynecology", "name": "Gynecology", "icon": "FiUsers", "description": "Women's reproductive health", "doctorsCount": 88 },
+  { "id": "sp-7", "slug": "dentistry", "name": "Dentistry", "icon": "FiFeather", "description": "Oral and dental care", "doctorsCount": 134 },
+  { "id": "sp-8", "slug": "ophthalmology", "name": "Ophthalmology", "icon": "FiEye", "description": "Eye and vision care", "doctorsCount": 67 },
+  { "id": "sp-9", "slug": "psychiatry", "name": "Psychiatry", "icon": "FiCloud", "description": "Mental health and wellbeing", "doctorsCount": 59 },
+  { "id": "sp-10", "slug": "ent", "name": "ENT", "icon": "FiHeadphones", "description": "Ear, nose and throat", "doctorsCount": 71 }
+]

@@ -1,0 +1,14 @@
+[
+  { "id": "sy-1", "slug": "chest-pain", "name": "Chest Pain", "specialtySlug": "cardiology" },
+  { "id": "sy-2", "slug": "palpitations", "name": "Palpitations", "specialtySlug": "cardiology" },
+  { "id": "sy-3", "slug": "skin-rash", "name": "Skin Rash", "specialtySlug": "dermatology" },
+  { "id": "sy-4", "slug": "acne", "name": "Acne", "specialtySlug": "dermatology" },
+  { "id": "sy-5", "slug": "headache", "name": "Headache", "specialtySlug": "neurology" },
+  { "id": "sy-6", "slug": "dizziness", "name": "Dizziness", "specialtySlug": "neurology" },
+  { "id": "sy-7", "slug": "child-fever", "name": "Child Fever", "specialtySlug": "pediatrics" },
+  { "id": "sy-8", "slug": "back-pain", "name": "Back Pain", "specialtySlug": "orthopedics" },
+  { "id": "sy-9", "slug": "toothache", "name": "Toothache", "specialtySlug": "dentistry" },
+  { "id": "sy-10", "slug": "blurred-vision", "name": "Blurred Vision", "specialtySlug": "ophthalmology" },
+  { "id": "sy-11", "slug": "anxiety", "name": "Anxiety", "specialtySlug": "psychiatry" },
+  { "id": "sy-12", "slug": "ear-pain", "name": "Ear Pain", "specialtySlug": "ent" }
+]
