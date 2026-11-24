@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Newsreader, Public_Sans, Spline_Sans_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { Suspense } from "react";
 import { PatientDescriptionView } from "@/features/appointments";
 import { Loading } from "@/components/feedback";
@@ -12,13 +12,26 @@ import { Loading } from "@/components/feedback";
  * `next/font` preloads what a layout declares, and three faces used on one page
  * would then be preloaded on every page in the app.
  */
-const newsreader = Newsreader({ variable: "--font-newsreader", subsets: ["latin"], weight: ["400", "500", "600"] });
-const publicSans = Public_Sans({
-  variable: "--font-public-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+// Self-hosted variable fonts (latin) — keeps the production build off Google's
+// font CDN. Files live in src/assets/fonts.
+const newsreader = localFont({
+  src: "../../../../../../assets/fonts/Newsreader.woff2",
+  variable: "--font-newsreader",
+  weight: "400 600",
+  display: "swap",
 });
-const splineMono = Spline_Sans_Mono({ variable: "--font-spline-mono", subsets: ["latin"], weight: ["400", "500", "600"] });
+const publicSans = localFont({
+  src: "../../../../../../assets/fonts/PublicSans.woff2",
+  variable: "--font-public-sans",
+  weight: "400 800",
+  display: "swap",
+});
+const splineMono = localFont({
+  src: "../../../../../../assets/fonts/SplineSansMono.woff2",
+  variable: "--font-spline-mono",
+  weight: "400 600",
+  display: "swap",
+});
 
 export const metadata: Metadata = { title: "Patient record" };
 
