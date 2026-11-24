@@ -1,0 +1,35 @@
+# Runs on the ARM64 EC2 VM (prime-prod) in ~/isd-doctor.
+# Pull-only: the image is built on your machine and pushed to Docker Hub.
+#
+#   docker compose pull
+#   docker compose up -d
+#   docker compose logs -f
+#
+# The .env file next to this compose file must contain the SAME NEXT_PUBLIC_*
+# values as the project's .env.production (the file used at build time).
+services:
+  doctor-web:
+    image: primemedisysdocker/ihs:doctor
+    container_name: ihs-doctor-web
+    restart: unless-stopped
+    pull_policy: always
+    ports:
+      - "3001:3001"
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      PORT: "3001"
+      HOSTNAME: 0.0.0.0
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "node",
+          "-e",
+          "fetch('http://127.0.0.1:3001/login').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
