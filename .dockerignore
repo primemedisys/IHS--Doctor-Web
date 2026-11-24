@@ -1,0 +1,29 @@
+# Keep the build context small and never bake local secrets into the image.
+node_modules
+.next
+out
+build
+coverage
+
+.git
+.gitignore
+.claude
+
+# Local env files. Only .env.production is allowed into the build context:
+# Next.js reads it during `next build` and bakes NEXT_PUBLIC_* into the bundle.
+.env
+.env.*
+!.env.example
+!.env.production
+
+# Dev / deploy leftovers
+Dockerfile*
+docker-compose*.yml
+deploy
+docs
+README.md
+*.pem
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+.DS_Store
